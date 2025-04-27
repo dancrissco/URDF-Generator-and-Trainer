@@ -23,15 +23,12 @@ Defaults are provided for quick testing, but you can customize any aspect to mat
 
 Example:
 
-nginx
-Copy
-Edit
 python3 urdf_gen_with_inputs.py
+
 You can immediately visualize the generated URDF by running:
 
-arduino
-Copy
-Edit
 ros2 run robot_state_publisher robot_state_publisher generated_robot.urdf
+
 rviz2
+
 ros2 run joint_state_publisher_gui joint_state_publisher_gui
