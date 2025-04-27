@@ -23,7 +23,7 @@ Defaults are provided for quick testing, but you can customize any aspect to mat
 
 Example:
 
-python3 urdf_gen_with_inputs.py
+python3 urdf_gen_with_inputs.py will create the URDF
 
 You can immediately visualize the generated URDF by running:
 
